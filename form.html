@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    
+</head>
+<body style="background-color: rgb(128, 195, 197);">
+
+    <h2 style="background-color: rgb(94, 165, 187); ">O que você achou do site??</h2>
+    <form name="cadastro" method="get" action="form.php">
+        <input type="radio" name="opção" value="mb">Muito Bom
+        <input type="radio" name="opção" value="b">Bom
+        <input type="radio" name="opção" value="r">Regular
+        <input type="radio" name="opção" value="li">Um Lixo
+
+        <h2 style="background-color: rgb(94, 165, 187); ">Qual a seção que mais gostou??</h2>
+        <select name="opçoes" >
+            <option>Em Cartaz</option>
+            <option >Trilha Sonora</option>
+            <option >Galeria de fotos</option>
+            <option >Bilheteria</option>
+            <option>Outra</option>
+        
+        </select>
+        Outra : <input name="outra" type="text"> 
+        <h2 style="background-color: rgb(94, 165, 187); ">Digite seus comentários no espaço abaixo: </h2>
+        <textarea name="msg"  cols="50" rows="8"></textarea>
+        <h2 style="background-color: rgb(94, 165, 187); ">Diga-nos como entrar em contato com você:  </h2>
+        Nome <input type="text" name="nome"> <br>
+        E-mail <input type="text" name="email"> <br>
+        Fone <input type="text" name="fone"> <br>
+        FAX <input type="text" name="fax"> <br>
+<br>
+        <input type="checkbox" name="nov" value="nov">Quero receber as novitades do site por e-mail
+<br>
+
+
+        <br>
+<input style="background-color: turquoise;" type="submit" value="ENVIAR DADOS">
+<input style="background-color: turquoise;" type="reset" value="LIMPAR FORMULÁRIO">
+
+    </form>
+</body>
+</html>
